@@ -1,0 +1,75 @@
+.task .panel-heading {
+    background-color: blue;
+    color: #fff;
+}
+.task .panel-body{
+    background-color: blueviolet;
+    color: white;
+}
+.task{
+    margin: 50px 0 50px 0;
+}
+a:focus, a:hover{
+    text-decoration: none;
+}
+
+
+/* Tab */
+.tab .nav-tabs>li.active>a, .tab .nav-tabs>li.active>a:focus, .tab .nav-tabs>li.active>a:hover{
+    color: #ffffff;  
+}
+.tab{
+    margin-bottom: 50px;
+}
+.tab a{
+    color: rgb(63, 129, 216);
+}
+/* .tab .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    color:orange;
+    background-color: pink;
+    border: none;
+    outline: 0;
+} */
+.tab .nav-tabs {
+    border-bottom:none;
+}
+.tab .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: orange;
+    text-decoration: none;
+    background-color: pink;
+}
+.tab .nav-tabs>li.active>a{ 
+    border: none;
+    background-color: rgb(235, 16, 52);
+}
+.tab .nav>li>a:focus, .nav>li>a:hover{
+    background-color: rgb(235, 16, 52);
+}
+
+/* .Carousel */
+.Carousel .carousel-control.right{
+    background-image: none;
+}
+.Carousel .carousel-control.left {
+    background-image: none;
+}
+.Carousel{
+    margin-bottom: 50px;
+}
+
+
+.one .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: rgb(26, 25, 25);
+    text-decoration: none;
+    background-color: rgb(206, 206, 206);
+}
+.one .nav>li>a:focus, .nav>li>a:hover{
+    background-color: rgb(206, 206, 206);
+}
+.one{
+    margin-bottom: 50px;
+}
+
+.two{
+    margin-bottom: 50px;
+}
